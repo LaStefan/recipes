@@ -25,6 +25,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -63,7 +64,8 @@
               "browserTarget": "recipes-planner:build:production"
             },
             "development": {
-              "browserTarget": "recipes-planner:build:development"
+              "browserTarget": "recipes-planner:build:development",
+              "port": 9999
             }
           },
           "defaultConfiguration": "development"
